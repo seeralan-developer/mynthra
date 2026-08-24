@@ -1,0 +1,170 @@
+nav{
+    background-color: black;
+    color: white;
+}
+h1,ul,li{
+    display: inline-block;
+    padding: 5px;
+}
+
+ul{
+    padding-left: 60%;
+}
+li{
+    padding-left: 5px;
+    cursor: pointer;
+    color: palegreen;
+}
+.myntra a{
+    text-decoration: none;
+}
+li:hover{
+    color: aqua;
+}
+.myntra h1{
+    padding-left: 35px;
+    color:red;
+
+
+}
+
+.searchbar input{
+    width: 50%;
+    margin: 15px;
+    padding: 5px;
+    border: 2px;
+    border-color: black;
+    border:solid;
+}
+.searchbar{
+    text-align: center;
+    
+}
+.product{
+    display: flex;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.box {
+    width: 16.66%;
+    border: solid rgb(56, 18, 18) 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    margin: 1px;
+    margin-top: 10px;
+    background-color:black;
+    color: white;</section>
+}
+.product img{
+    width: 87%;
+    padding: 10px;
+    object-fit: cover;
+    height: 280px;
+}
+.product-parent{
+    display: flex;
+}
+.price{
+    text-align: center; 
+    cursor: pointer;
+    background-color: red;
+}
+.price:hover{
+    background-color: aqua;
+}
+.product2{
+    display: flex;
+    width: 100%;
+}
+.box1 {
+    width: 16.66%;
+    display: flex;
+    border: solid 4px black;
+    margin: 1px;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    margin-top:20px;
+    background-color: black;
+    color: white;
+}
+.product2 img{
+    display: flex;
+    width: 87%;
+    height: 280%;
+    display: flex;
+    padding: 10px;
+}
+.price1{
+    text-align: center;
+    cursor: pointer;
+    background-color:red;
+    
+    justify-content: center;
+}
+.price1:hover{
+    background-color: aqua;
+}
+.background1{
+    background: url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.buy {
+    width: 400px;
+    margin: -17px auto;
+    padding: 100px;
+}
+
+.buy form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    background-color:peru;
+    background: url(background1.jpg);
+}
+
+.buy h2 {
+    text-align: center;
+}
+
+.buy input,
+.buy textarea,
+.buy select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.buy button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.buy button:hover{
+    background-color: wheat;
+    color: black;
+}
+.back{
+    background-color: black;
+    
+}
+
+.background {
+    background:url(Screenshot\ 2026-08-21\ 222656.png);
+    height: 600px;
+    width: 98%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid red;
+    padding: 5px;
+    margin: 5px;
+}
